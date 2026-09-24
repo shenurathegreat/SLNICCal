@@ -83,7 +83,7 @@ def calculate_age(dob):
 
 
 st.title(" NIC Details & Age Calculator")
-st.write("Enter your full name and National Identity Card (NIC) number below./nWarning!!!Your details will not be saved in any forms in any servers.Created by Shenura Fernando.ALL rights reserved!")
+st.write("Enter your full name and National Identity Card (NIC) number below.")st.write('Warning!!!Your details will not be saved in any forms in any servers.Created by Shenura Fernando.ALL rights reserved!')
 
 
 with st.form("user_form"):
