@@ -86,8 +86,8 @@ def calculate_age(dob):
 
 # --- STREAMLIT UI ---
 
-st.title("📇 NIC Details & Age Calculator")
-st.write("Enter your full name and National Identity Card (NIC) number below.")
+st.title(" NIC Details & Age Calculator")
+st.write("Enter your full name and National Identity Card (NIC) number below.Created by Shenura Fernando.ALL rights reserved!")
 
 # Form inputs
 with st.form("user_form"):
@@ -116,7 +116,7 @@ if submitted:
             years, months, days = calculate_age(nic_data["dob_date"])
 
             # 3. Display Results in Cards / Metrics
-            st.markdown("### 🔍 Processed Results")
+            st.markdown("### Processed Results")
             
             col1, col2 = st.columns(2)
             with col1:
